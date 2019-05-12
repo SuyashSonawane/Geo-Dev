@@ -3,7 +3,7 @@ import firebase from 'firebase/app'
 import 'firebase/firestore'
  // Your web app's Firebase configuration
  var firebaseConfig = {
-  //  Keys
+  //  keys
   };
   // Initialize Firebase
   const firebaseapp= firebase.initializeApp(firebaseConfig);
