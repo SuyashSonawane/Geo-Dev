@@ -1,8 +1,9 @@
 <template>
     <div class="welcome container">
-      <div class="card">
+      <div class="card ">
         <div class="card-content center-align">
-          <h2 class="teal-text">Welcome</h2>
+          <h2 class="teal-text">Welcome <br>
+          <p>Chat on a Global Chat </p> </h2>
           <form @submit.prevent="enterChat">
             <label for="name">Enter Your Name</label>
             <input type="text" name="name" class="input-name" v-model="name">
@@ -46,5 +47,8 @@ export default {
 }
 .welcome button{
   margin-top: 20px
+}
+.welcome h2 p{
+  font-size: 0.5em
 }
 </style>
